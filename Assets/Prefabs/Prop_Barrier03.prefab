@@ -9,12 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6407212282972607219}
-  - component: {fileID: 2554925378928392061}
   - component: {fileID: 6407212282972789986}
   - component: {fileID: 6407212282972789985}
   m_Layer: 0
   m_Name: Prop_Barrier03
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34,22 +33,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &2554925378928392061
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6407212282972923603}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &6407212282972789986
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61,8 +44,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.55499756, y: 2.1933243, z: 3.3719063}
-  m_Center: {x: 0.024699032, y: 0.7544426, z: -0.053450108}
+  m_Size: {x: 0.55499756, y: 1.8806851, z: 2.7344713}
+  m_Center: {x: 0.024699032, y: 0.9107622, z: -0.33600307}
 --- !u!114 &6407212282972789985
 MonoBehaviour:
   m_ObjectHideFlags: 0
